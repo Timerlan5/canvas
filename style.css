@@ -1,0 +1,29 @@
+#up{
+    position: relative;
+}
+#ru{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+#ru.active {
+    display: block; 
+}
+#down{
+    position: relative;
+}
+#bed{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+#bed.active {
+    display: block; 
+}
+
+
+body{
+    background-color: gray;
+}
